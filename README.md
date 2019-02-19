@@ -16,5 +16,6 @@ Word list, images can be clicked and an audio with the word is played
 
 ![webp net-resizeimage 2](https://user-images.githubusercontent.com/39347970/53029502-6397fd80-343f-11e9-9ed0-f4f1a7dd4954.png)
 Practice mode, correct answer
-![webp net-resizeimage 3](https://user-images.githubusercontent.com/39347970/53029506-672b8480-343f-11e9-8881-51e8ca0e0728.png)
+
+![webp net-resizeimage 4](https://user-images.githubusercontent.com/39347970/53029658-c093b380-343f-11e9-8e95-3d6d5d73e56f.png)
 Practice mode, incorrect answer
