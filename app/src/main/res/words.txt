@@ -1,0 +1,13 @@
+{"numbers":[
+	{"spanish":"uno","german":"eins", "picResource":"R.drawable.one"},
+	{"spanish":"dos","german":"zwei", "picResource":"R.drawable.two"},
+	{"spanish":"tres","german":"drei", "picResource":"R.drawable.three"},
+	{"spanish":"cuatro","german":"vier", "picResource":"R.drawable.four"}],
+
+"family":[
+	{"spanish":"mamá","german":"mutter", "picResource":"R.drawable.two"},
+	{"spanish":"mamá","german":"mutter", "picResource":"R.drawable.two"}]
+}
+
+
+

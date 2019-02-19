@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.denys.juliaaprendeespaol">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".NumbersActivity"
+            android:label="Números"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AbcActivity"
+            android:label="Abecedario"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PhrasesActivity"
+            android:label="Frases"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".FamilyActivity"
+            android:label="Familia"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PraticeMenuActivity"
+            android:label="Practicar"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PracticeActivity"
+            android:parentActivityName=".PraticeMenuActivity" />
+        <activity android:name=".PracticeFinishedActivity"></activity>
+    </application>
+
+</manifest>

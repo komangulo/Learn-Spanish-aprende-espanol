@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+   <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="¡Hora de practicar!"
+    android:textSize="30sp"
+    android:textStyle="bold"
+    android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¿Estás lista?"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige una categoria: "
+        android:layout_marginTop="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/opciones"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_span="3"
+        android:layout_marginTop="20dp">
+
+        <RadioButton
+                android:id="@+id/numbers"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:text="Números"
+            android:drawableRight="@drawable/one_little"
+            android:drawablePadding="10dp"/>
+
+
+            <RadioButton
+                android:id="@+id/family"
+                android:layout_width="131dp"
+                android:layout_height="wrap_content"
+                android:text="Familia"
+                android:drawableRight="@drawable/family_little"
+                android:drawablePadding="10dp"
+                android:layout_marginTop="20dp"/>
+
+
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empezar"
+        android:layout_marginTop="20dp"
+        android:id="@+id/star_btn"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="60sp"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/counter_view"
+        tools:text="3"/>
+
+
+</LinearLayout>
