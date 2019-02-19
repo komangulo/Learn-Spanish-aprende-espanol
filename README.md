@@ -7,6 +7,7 @@ were implemented such as intents, audio focus management and styling.
 
 ## Screenshots
 
-![screenshot_1550590833](https://user-images.githubusercontent.com/39347970/53028612-98a35080-343d-11e9-84be-e63d78ea8c3f.png)
+
+![webp net-resizeimage](https://user-images.githubusercontent.com/39347970/53029266-d8b70300-343e-11e9-87f4-1651732aa449.png)
 
 
